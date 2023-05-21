@@ -1,0 +1,22 @@
+.keys{
+    text-align: center;
+
+    height: 600px;
+    align-content: center;
+    border:1px solid red;
+}
+.key{
+    border:4px solid lightblue;
+}
+  .sound {
+    text-transform: uppercase;
+  }
+  
+  i{
+    font-size: 40px;
+  }
+  img{
+    width: 40px;
+    height: 40px;
+  }
+  
