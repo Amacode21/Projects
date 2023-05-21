@@ -3,7 +3,6 @@ const info = document.querySelector('.info');
 const Reset = document.querySelector('Reset');
 const scoreCircle = document.querySelector('.Circle-Score');
 const scoreCross = document.querySelector('.Cross-Score');
-let Num = 1;
 let scoreCircleValue = 0;
 let scoreCrossValue = 0;
 let CheckDraw = 0;
@@ -80,8 +79,8 @@ function CheckWin(){
 function RemoveAll() {
     const InputSquares = document.querySelectorAll('.square');
     InputSquares.forEach(square => {
-      square.firstChild?.remove(); // Remove the input shape
-      square.addEventListener('click', InputDisplay);// Add back the click event listener
+      square.firstChild?.remove();
+      square.addEventListener('click', InputDisplay);
       CheckDraw = 0;
     });
   }
