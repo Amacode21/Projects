@@ -67,7 +67,7 @@ function CheckWin(){
                 info.textContent = "Cross Wins"; 
                 square.forEach(square => square.replaceWith(square.cloneNode(true)))
                 alert("Cross Wins");
-                scoreCrossValue += 1; // Increase Circle's score
+                scoreCrossValue += 1; // Increase Cross's score
                 scoreCross.textContent = scoreCrossValue;
                 RemoveAll();
                 return
